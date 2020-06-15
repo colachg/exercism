@@ -19,7 +19,7 @@ jobs:
     - name: Test
       run: |
         pip install pytest
-        pytest --cov-report term --cov=python/*
+        pytest
 
   golang-test:
     name: Golang-unit-test
