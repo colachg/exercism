@@ -19,7 +19,7 @@ jobs:
     - name: Test
       run: |
         pip install pytest
-        pytest
+        pytest --cov-report term --cov=python/
 
   golang-test:
     name: Golang-unit-test
@@ -33,4 +33,4 @@ jobs:
       id: go
 
     - name: Test
-      run: go test -v ./...
+      run: go test -cover ./...
