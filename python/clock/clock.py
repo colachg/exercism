@@ -9,9 +9,9 @@ class Clock:
         return repr(self) == repr(other)
 
     def __add__(self, minutes):
-        self.minutes = (self.minutes + minutes) % 1440
+        self.minutes = (self.minutes + minutes) % (24 * 60)
         return self
 
     def __sub__(self, minutes):
-        self.minutes = (self.minutes - minutes) % 1440
+        self.minutes = (self.minutes - minutes) % (24 * 60)
         return self
