@@ -2,3 +2,5 @@
 /python/.idea/
 /python/*/__pycache__
 /go/.idea/
+__pycache__
+pytest_cache

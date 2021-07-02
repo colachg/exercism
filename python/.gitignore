@@ -6,3 +6,4 @@
 /.idea/saveactions_settings.xml
 /.idea/vcs.xml
 /*/.exercism/
+/*/.pytest_cache
