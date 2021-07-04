@@ -1,6 +1,10 @@
+# project
 .idea
-/python/.idea/
-/python/*/__pycache__
-/go/.idea/
-__pycache__
-pytest_cache
+
+# python related
+.pytest_cache
+python/*/__pycache__/
+
+
+# golang related
+*/*/.exercism
